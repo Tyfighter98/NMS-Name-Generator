@@ -21,7 +21,7 @@ This Android app (Sorry iPhone users only dabbled in Android ¯\_(ツ)_/¯) is d
 ### Current Features:
 1. Users can **TYPE** descriptions of planets in designated categories
     * The typed information must match that of the naming convention to avoid an error
-    * Each word in the entry must be **CAPITALIZED**
+    * The first letter of each word in the entry must be **CAPITALIZED**
 
 ### Future Features:
 1. Drop down menus for each planet description to avoid errors
