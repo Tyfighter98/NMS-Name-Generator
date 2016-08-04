@@ -3,6 +3,13 @@
 ### TL;DR:
 I've created an Android app based off of Reddior's [/u/IIIAnomalyIII](https://www.reddit.com/user/IIIAnomalyIII) naming convention from the [/r/noman'sskythegame](https://www.reddit.com/r/NoMansSkyTheGame/) subbreddit. Currently it is lacking in many features but is functional. I plan to be adding features to this regualrly and would love your feedback on reddit or here on GitHub.
 
+#### Instalation:
+1. Go to the [releases](https://github.com/Tyfighter98/NMS-Name-Genorator/releases) section of this project
+2. Save/move the file to your android device
+3. Click on the file in your favorite file manager<sup>1</sup>
+~~4. Behold Sean Murray~~
+5. Begin naming plantes :D
+
 Naming Convention: 
 ![alt text](https://i.redd.it/pfanhavkwvcx.jpg)
 
@@ -11,10 +18,13 @@ This Android app (Sorry iPhone users only dabeled in Android ¯\_(ツ)_/¯) is d
 
 ### Current Features:
 1. Users can **TYPE** descriptions of plantes in designated catagories
-..* The typed information must match that of the naming convention to avoid an error
+⋅⋅* The typed information must match that of the naming convention to avoid an error
 
 ### Future Features:
 1. Drop down menus for each planet descriton to avoid errors
 2. Better display of generated name
-..*allow users to copy/past name
+⋅⋅* Allow users to copy/past name
 3. Local database so users can keep track of their planet names
+4. Better app icon (would love one from a user :D)
+
+<sup>1</sup> By default Android doesn't let you install apps that aren't from the Play Store so just go to Settings->Security-> and turn on "Unknown Sources" 
