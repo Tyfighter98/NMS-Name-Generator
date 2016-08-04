@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tyfighter98.nmsnamegenorator.MainActivity">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/biomeText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/biome_hint" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/resourcesText"
+        android:layout_below="@+id/biomeText"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/biomeText"
+        android:hint="@string/resources_hint"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/lifeFormsText"
+        android:layout_below="@+id/resourcesText"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:hint="@string/life_form_hint"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/lawText"
+        android:layout_below="@+id/lifeFormsText"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/lifeFormsText"
+        android:hint="@string/law_hint"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/structuresText"
+        android:layout_below="@+id/lawText"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/lawText"
+        android:hint="@string/structures_hint"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/climateText"
+        android:layout_below="@+id/structuresText"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/structuresText"
+        android:hint="@string/climate_hint"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/DirectionText"
+        android:layout_below="@+id/climateText"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/climateText"
+        android:hint="@string/direction_hint"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/generate_button"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="sendName"/>
+
+
+</RelativeLayout>
