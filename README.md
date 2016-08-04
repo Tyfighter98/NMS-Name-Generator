@@ -7,7 +7,7 @@ I've created an Android app based off of Reddior's [/u/IIIAnomalyIII](https://ww
 1. Go to the [releases](https://github.com/Tyfighter98/NMS-Name-Genorator/releases) section of this project
 2. Save/move the file to your android device
 3. Click on the file in your favorite file manager<sup>1</sup>
-~~4. Behold Sean Murray~~
+4. ~~ Behold Sean Murray~~
 5. Begin naming plantes :D
 
 Naming Convention: 
