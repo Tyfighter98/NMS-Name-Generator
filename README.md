@@ -10,7 +10,7 @@ I've created an Android app based off of Reddior's [/u/IIIAnomalyIII](https://ww
 4. ~~Behold Sean Murray~~
 5. Begin naming plantes :D
 
-Naming Convention: 
+### Naming Convention: 
 ![alt text](https://i.redd.it/pfanhavkwvcx.jpg)
 
 ### For All You Avid Readers:
