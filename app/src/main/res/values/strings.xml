@@ -7,6 +7,6 @@
     <string name="law_hint">Law</string>
     <string name="structures_hint">Structures</string>
     <string name="climate_hint">Climate</string>
-    <string name="direction_hint">Direction/Date</string>
+    <string name="direction_hint">Direction/Date (Optional)</string>
     <string name="title_activity_display_name">DisplayNameActivity</string>
 </resources>
