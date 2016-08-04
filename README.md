@@ -1,4 +1,4 @@
-# Planet Name Genorator for No Man's Sky
+# Planet Name Generator for No Man's Sky
 
 ### TL;DR:
 I've created an Android app based off of Reddior's [/u/IIIAnomalyIII](https://www.reddit.com/user/IIIAnomalyIII) naming convention from the [/r/noman'sskythegame](https://www.reddit.com/r/NoMansSkyTheGame/) subbreddit. Currently it is lacking in many features but is functional. I plan to be adding features to this regualrly and would love your feedback on reddit [/u/Tyfighter98](https://www.reddit.com/user/Tyfighter98/) or here on GitHub via a [bug report](https://github.com/Tyfighter98/NMS-Name-Genorator/issues).
