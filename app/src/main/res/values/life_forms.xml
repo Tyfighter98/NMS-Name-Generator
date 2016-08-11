@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="life_forms">
+        <item>--Please Select a Life Form--</item>
         <item>Plants</item>
         <item>Creatures</item>
         <item>NPCs</item>

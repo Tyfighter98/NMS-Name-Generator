@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="resources">
+        <item>--Please Select a Resource--</item>
         <item>Ship</item>
         <item>Suit</item>
         <item>Multi-Tool</item>

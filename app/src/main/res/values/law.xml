@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="law">
+        <item>--Please Select a Law Type--</item>
         <item>Sentinels</item>
         <item>Lawless</item>
     </string-array>

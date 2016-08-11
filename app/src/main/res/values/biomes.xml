@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="biomes">
+        <item>--Please Select a Biome--</item>
         <item>Desert</item>
         <item>Featureless</item>
         <item>Floating Islands</item>
