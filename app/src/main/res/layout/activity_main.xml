@@ -9,80 +9,67 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="tyfighter98.nmsnamegenorator.MainActivity">
 
-    <EditText
+    <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:id="@+id/biomeText"
+        android:id="@+id/biomes_spinner"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:hint="@string/biome_hint" />
+        android:layout_alignParentEnd="true" />
 
-    <EditText
+    <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:id="@+id/resourcesText"
-        android:layout_below="@+id/biomeText"
+        android:id="@+id/resources_spinner"
+        android:layout_below="@+id/biomes_spinner"
+        android:layout_marginTop="20dp"
         android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/biomeText"
-        android:hint="@string/resources_hint"/>
+        android:layout_alignParentEnd="true" />
 
-    <EditText
+    <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/lifeFormsText"
-        android:layout_below="@+id/resourcesText"
+        android:id="@+id/life_forms_spinner"
+        android:layout_below="@id/resources_spinner"
+        android:layout_marginTop="20dp"
         android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:hint="@string/life_form_hint"/>
+        android:layout_alignParentEnd="true" />
 
-    <EditText
+    <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/lawText"
-        android:layout_below="@+id/lifeFormsText"
+        android:id="@+id/law_spinner"
+        android:layout_below="@id/life_forms_spinner"
+        android:layout_marginTop="20dp"
         android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/lifeFormsText"
-        android:hint="@string/law_hint"/>
+        android:layout_alignParentEnd="true" />
 
-    <EditText
+    <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/structuresText"
-        android:layout_below="@+id/lawText"
+        android:id="@+id/structures_spinner"
+        android:layout_below="@id/law_spinner"
+        android:layout_marginTop="20dp"
         android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/lawText"
-        android:hint="@string/structures_hint"/>
+        android:layout_alignParentEnd="true" />
 
-    <EditText
+    <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/climateText"
-        android:layout_below="@+id/structuresText"
+        android:id="@+id/climate_spinner"
+        android:layout_below="@+id/structures_spinner"
+        android:layout_marginTop="20dp"
         android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/structuresText"
-        android:hint="@string/climate_hint"/>
+        android:layout_alignParentEnd="true" />
 
-    <EditText
+    <Spinner
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:ems="10"
-        android:id="@+id/directionText"
-        android:layout_below="@+id/climateText"
+        android:id="@+id/direction_spinner"
+        android:layout_below="@+id/climate_spinner"
+        android:layout_marginTop="20dp"
         android:layout_alignParentStart="true"
-        android:layout_alignEnd="@+id/climateText"
-        android:hint="@string/direction_hint"/>
+        android:layout_alignParentEnd="true" />
 
     <Button
         android:layout_width="wrap_content"
@@ -92,6 +79,5 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:onClick="sendName"/>
-
 
 </RelativeLayout>

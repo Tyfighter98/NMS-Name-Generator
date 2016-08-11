@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="climates">
+        <item>Safe</item>
+        <item>Cold</item>
+        <item>Hot</item>
+        <item>Radioactive</item>
+        <item>Toxic</item>
+        <item>Extreme</item>
+    </string-array>
+</resources>
