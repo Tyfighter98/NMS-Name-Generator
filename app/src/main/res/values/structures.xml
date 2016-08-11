@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="structures">
+        <item>--Please Select a Structure--</item>
+        <item>Buildings</item>
+        <item>Monoliths</item>
+        <item>Portals</item>
+        <item>Monoliths/Portals</item>
+        <item>Monoliths/Buildings</item>
+        <item>Portals/Buildings</item>
+        <item>Portals/Buildings</item>
+        <item>3+</item>
+        <item>No Structures</item>
+    </string-array>
+</resources>

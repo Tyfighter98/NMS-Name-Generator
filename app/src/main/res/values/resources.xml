@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="resources">
+        <item>--Please Select a Resource--</item>
+        <item>Ship</item>
+        <item>Suit</item>
+        <item>Multi-Tool</item>
+        <item>Blueprint</item>
+        <item>Trading</item>
+        <item>ship/Suit</item>
+        <item>Ship/Multi-Tool</item>
+        <item>Ship/Trading</item>
+        <item>Ship/Blueprint</item>
+        <item>Suit/Multi-Tool</item>
+        <item>Suit/Trading</item>
+        <item>Suit/Blueprint</item>
+        <item>Multi-Tool/Trading</item>
+        <item>Multi-Tool/Blueprint</item>
+        <item>Blueprint/Trading</item>
+        <item>3+</item>
+        <item>Nothing</item>
+    </string-array>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="direction">
+        <item>--Please Select a Direction (Optional)--</item>
+        <item>Going Toward Center</item>
+        <item>Going Toward Edge</item>
+        <item>Moving Laterally</item>
+        <item>Staying In Solar System</item>
+        <item>Taking Portal</item>
+    </string-array>
+</resources>
