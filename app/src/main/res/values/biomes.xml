@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="biomes">
+        <item>Desert</item>
+        <item>Featureless</item>
+        <item>Floating Islands</item>
+        <item>Forests</item>
+        <item>Plains</item>
+        <item>Lava</item>
+        <item>Liquid</item>
+        <item>Mountains</item>
+        <item>Pillars</item>
+        <item>Rocky</item>
+        <item>Snow</item>
+        <item>Weird Stuff</item>
+    </string-array>
+</resources>
